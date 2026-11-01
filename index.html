@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Event Management System</h1>
+        <p>Discover, Participate, and Celebrate</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome Students!</h2>
+        <p>Explore college events and register for your favorite activities.</p>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+
+        <div class="event">
+            <h3>Technical Symposium</h3>
+            <p>Date: 15 December 2026</p>
+            <button onclick="registerEvent('Technical Symposium')">
+                Register
+            </button>
+        </div>
+
+        <div class="event">
+            <h3>Cultural Fest</h3>
+            <p>Date: 20 December 2026</p>
+            <button onclick="registerEvent('Cultural Fest')">
+                Register
+            </button>
+        </div>
+
+        <p id="message"></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: events@college.edu</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Student Event Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
